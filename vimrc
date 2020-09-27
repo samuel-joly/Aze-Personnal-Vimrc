@@ -17,3 +17,12 @@ nnoremap <silent> <special> oo o<Esc>k
 nnoremap <silent> <special> OO O<Esc>j
 :map Y y$
 set encoding=utf-8
+set path+=**
+let g:netrw_banner = 0
+let g:netrw_browse_split = 4
+let g:netrw_winsize = 25
+let g:netrw_liststyle = 3
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
