@@ -2,6 +2,7 @@ colorscheme desert
 set relativenumber
 set number
 set autoindent
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 syntax on
 set guifont=Courier_New:h14:cDEFAULT
 set foldmethod=manual
