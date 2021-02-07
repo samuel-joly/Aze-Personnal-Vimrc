@@ -22,6 +22,7 @@ map <C-n> :NERDTreeToggle<CR>
 tnoremap <Esc> <C-\><C-n>
 :map Y y$
 
+let g:syntastic_javascript_checkers=['eslint']
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
@@ -38,6 +39,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'othree/yajs.vim'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'mhartington/oceanic-next'
 Plug 'yuezk/vim-js'
 Plug 'dense-analysis/ale'
